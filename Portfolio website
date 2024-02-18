@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aradhya Yadav - Software Engineer</title>
+    <!-- Include the Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+
+    <header class="bg-gray-800 text-white text-center py-4">
+        <h1 class="text-3xl font-semibold">Aradhya Yadav</h1>
+        <p>Software Engineer</p>
+    </header>
+
+    <section class="container mx-auto my-8 p-8 bg-white shadow-md rounded-md">
+        <div class="flex justify-between items-center mb-4">
+            <div class="w-1/2">
+                <h2 class="text-2xl font-semibold">About Me</h2>
+                <p class="mt-2">Currently working as an intern at MeriSKILL as a data analyst. Also, a part of Internshala Student Partner Program and doing a web development internship at CodSoft and Oasis Infobyte.</p>
+            </div>
+            <div class="w-1/2">
+            </div>
+        </div>
+
+        <div>
+            <h2 class="text-2xl font-semibold mb-2">Skills</h2>
+            <ul class="list-disc ml-8">
+                <li>C++</li>
+                <li>C</li>
+                <li>Object-Oriented Programming (OOP)</li>
+                <li>Database Management Systems (DBMS)</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="container mx-auto my-8 p-8 bg-white shadow-md rounded-md">
+        <h2 class="text-2xl font-semibold mb-4">Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="mb-4">
+                <h3 class="text-xl font-semibold">Sales Data Analysis</h3>
+                <p>Sales Data Analysis" is a project focused on examining and interpreting sales-related data to extract valuable insights and inform strategic decision-making within a business.
+                </p>
+            </div>
+            <div class="mb-4">
+                <h3 class="text-xl font-semibold">Diabetes Patients</h3>
+                <p>The "Diabetes Patients" project involves analyzing health-related data to identify patterns, risk factors, and trends among patients with diabetes. By employing statistical techniques and data visualization, the project aims to provide valuable insights for healthcare professionals to enhance patient care and optimize treatment strategies</p>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+
+    <section class="container mx-auto my-8 p-8 bg-white shadow-md rounded-md">
+        <h2 class="text-2xl font-semibold mb-4">Resume</h2>
+        <p>Download my resume <a href="https://docs.google.com/document/d/1B6tiN9uSDmlIgK8pcHaWiAr2J-O0VGVG/edit?usp=sharing&ouid=115401310329537836789&rtpof=true&sd=true" class="text-blue-500" target="_blank">here</a>.</p>
+    </section>
+
+    <section class="container mx-auto my-8 p-8 bg-white shadow-md rounded-md">
+        <h2 class="text-2xl font-semibold mb-4">Contact</h2>
+        <p>Email:aradhyay127@gmail.com</p>
+    </section>
+
+    <footer class="bg-gray-800 text-white text-center py-4">
+        <p>&copy; 2024 Aradhya Yadav. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
